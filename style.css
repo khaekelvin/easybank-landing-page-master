@@ -9,7 +9,6 @@ nav {
   max-width: 90rem;
   padding: 0 1rem;
   margin: 0 auto;
-  /* margin: 1rem auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,8 +16,6 @@ nav {
   color: black;
   position: relative;
   height: 70px;
-  /* width: 100%;
-    position: fixed; */
   z-index: 1000;
 }
 
@@ -173,7 +170,6 @@ button:hover {
     font-weight: 400;
     margin: 1.2rem 0;
     color: #9798a5;
-    /* width: 2rem; */
   }
   .left-h {
     font-size: 2rem;
@@ -320,7 +316,6 @@ button:hover {
 
 .card {
   width: 20rem;
-  /* background-color: #2ab6d9; */
   border-radius: 10px;
   border: 1px solid white;
   background: #fff;
@@ -369,9 +364,6 @@ button:hover {
 
 .art-grid {
   padding-bottom: 6rem;
-  /* display: flex;
-  justify-content: space-between;
-  gap: 1rem; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
