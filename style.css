@@ -7,7 +7,7 @@
 
 nav {
   max-width: 90rem;
-  padding: 0 1rem;
+  padding: 0 50px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -126,7 +126,7 @@ button:hover {
 
 .hero_wrapper {
   max-width: 90rem;
-  padding: 0 1rem;
+  padding: 0 50px;
   margin: 0 auto;
   max-height: 30rem;
   display: flex;
@@ -241,7 +241,7 @@ button:hover {
 
 .grid-sec {
   max-width: 90rem;
-  padding: 7rem 0;
+  padding: 7rem 50px;
   margin: 0 auto;
 }
 
@@ -309,20 +309,20 @@ button:hover {
 
 .art-sec {
   max-width: 90rem;
-  padding: 0 1rem;
+  padding: 0 50px;
   margin: 0 auto;
   display: grid;
 }
 
 .card {
-  width: 20rem;
+  width: 18.5rem;
   border-radius: 10px;
   border: 1px solid white;
   background: #fff;
 }
 
 .art-img {
-  width: 19.9rem;
+  width: 18.4rem;
   height: 13.9rem;
   border-radius: 10px 10px 0 0;
 }
