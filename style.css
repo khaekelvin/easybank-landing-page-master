@@ -54,10 +54,10 @@ nav ul li a {
 
 .left-p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: lighter;
   margin: 1.2rem 0;
   color: #9798a5;
-  /* width: 28rem; */
+  max-width: 50ch;
 }
 
 @media (max-width: 770px) {
@@ -252,9 +252,11 @@ button:hover {
 
 .grid-p {
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: lighter;
   margin: 1.2rem 0;
   color: #9798a5;
+  max-width: 70ch;
+  line-height: 2rem;
 }
 
 .all-grid {
@@ -268,7 +270,7 @@ button:hover {
 }
 
 .circle-p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 300;
   color: #9798a5;
 }
@@ -391,4 +393,45 @@ button:hover {
   .mock {
     display: none;
   }
+}
+
+footer {
+  background-color: #2d314d;
+}
+
+.foot {
+  max-width: 90rem;
+  padding: 0 50px;
+  margin: 0 auto;
+  background-color: wheat;
+  padding: 37px 41px;
+}
+
+.logo-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.log {
+  width: 10rem;
+}
+
+.contain {
+  display: flex;
+  background-color: aquamarine;
+  height: 7rem;
+}
+
+.link {
+  margin-left: 1rem;
+}
+
+.foot-flex {
+  font-size: 1.3rem;
+  line-height: 27px;
+  width: 20rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
 }
