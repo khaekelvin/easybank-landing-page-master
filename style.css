@@ -315,4 +315,88 @@ button:hover {
   max-width: 90rem;
   padding: 0 1rem;
   margin: 0 auto;
+  display: grid;
+}
+
+.card {
+  width: 20rem;
+  /* background-color: #2ab6d9; */
+  border-radius: 10px;
+  border: 1px solid white;
+  background: #fff;
+}
+
+.art-img {
+  width: 19.9rem;
+  height: 13.9rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.art-hp {
+  padding: 1.5rem;
+}
+
+.k {
+  margin-bottom: 10px;
+}
+
+.art-by {
+  font-weight: 300;
+  color: #9798a5;
+}
+
+.art-h {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.art-p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #9798a5;
+}
+
+.art-s {
+  background-color: #f9f9f9;
+}
+
+.art-latest {
+  font-size: 2.3rem;
+  font-weight: 300;
+  padding-top: 6rem;
+  padding-bottom: 1.8rem;
+}
+
+.art-grid {
+  padding-bottom: 6rem;
+  /* display: flex;
+  justify-content: space-between;
+  gap: 1rem; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1205px) {
+  .art-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+    justify-self: center;
+  }
+  .art-latest {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .art-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 1rem;
+    justify-self: center;
+    justify-content: center;
+  }
+  .mock {
+    display: none;
+  }
 }
